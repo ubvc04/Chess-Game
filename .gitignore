@@ -1,0 +1,46 @@
+# ==========================
+# Node.js
+# ==========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# ==========================
+# Build / Output
+# ==========================
+dist/
+build/
+.next/
+out/
+coverage/
+
+# ==========================
+# SQLite Database Files
+# ==========================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================
+# OS / Editor
+# ==========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+
+# ==========================
+# Misc
+# ==========================
+*.bak
+*.tmp
